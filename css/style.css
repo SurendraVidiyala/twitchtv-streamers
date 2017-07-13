@@ -1,0 +1,61 @@
+body, html {
+	padding: 5px;
+	background:#1e90ff;
+	
+}
+
+h1 {
+	font-family: Oswald;
+	color: white;
+}
+
+/* BUTTONS ONLINE-OFFLINE */
+#main .online {
+	background-color: #5bc0de;
+}
+
+#main .add {
+	font-family: Oswald;
+}
+
+#searchUser, .add, .filter {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+/* STREAMERS */
+.streamer {
+	font-family: Josefin Sans;
+}
+
+.streamer img {
+	width: 50px;
+}
+
+.streamer p {
+	margin-top: 2px;
+}
+
+.status-online {
+	color: white;
+	transition: 0.7s;
+}
+
+.status-online:hover {
+	color: lightgrey;
+	text-decoration: none;
+}
+
+footer p {
+	font-family: "Josefin Sans";
+	color: #ffffff;
+	text-align: center;
+}
+
+.icon {
+	color: red;
+}
+
+footer a {
+	color: #ffffff;
+}
