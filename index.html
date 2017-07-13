@@ -10,7 +10,33 @@
         <link href="css/style.scss" rel="stylesheet">
     </head>
     <body>
-       
+       <div class="container" id="main">
+    <h1 class="text-xs-center"><i class="fa fa-television fa-lg" aria-hidden="true"></i> Twitch Streamers</h1>
+      <hr>
+    <div class="row">
+        <div class="col-md-3 add">
+            <button class="btn btn-success"><i class="fa fa-plus"></i> Add User</button>
+        </div>
+        <div class="col-md-5 filter">
+            <button class="btn btn-danger" id="isOffline">Offline</button>
+            <button class="btn btn-info" id="isOnline">Online</button>
+            <button class="btn btn-secondary" id="all">All streamers</button>
+        </div>
+        <div class="col-md-4 search">
+            <input type="text" class="form-control" placeholder="Search user..." id="searchUser">
+        </div>
+    </div>
+    <hr>
+    <ul id="streamers" class="list-group">
+    </ul>
+    <hr>
+</div>
+<br>
+    <footer>
+      <p class="coded text-xs-center"><strong>Coded with</strong> <i class="fa fa-coffee cup" aria-hidden="true"></i> and <i class="fa fa-heart icon" aria-hidden="true"></i><em> By </em><a href="https://forueecodecamp.com/u/SurendraVidiyala/activity" target="_blank"><strong>Surendra Vidiyala</strong></a>.</p>
+        
+    </footer>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
